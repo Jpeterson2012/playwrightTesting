@@ -99,7 +99,7 @@ const getStuff = async () => {
                 temp.push([ tableContent[i], tableContent[i + 1], tableContent[i + 2], tableContent[i + 3] ])
             }
             // console.log(a.slice(0,a.length - 1))
-            console.log(currentDate())
+            console.log(`${orderNum[i]} ${currentDate()}`)
             console.log(temp)
             console.log('\n')
 
@@ -135,5 +135,5 @@ const getStuff = async () => {
     await browser.close();
 }
 
-firstTest()
-// getStuff()
+// firstTest()
+getStuff()
