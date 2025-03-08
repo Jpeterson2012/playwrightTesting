@@ -24,9 +24,9 @@ console.log(message.html.body);
 
 
 async function mail2(){
-    const mailosaur = new MailosaurClient("2uoslzLjxwe42h6phdvln4AqmeA4tPA8");
-    const result = await mailosaur.messages.get("s2jipchk",{
-        sentTo: 'like-cast@s2jipchk.mailosaur.net'
+    const mailosaur = new MailosaurClient(process.env.APIKEY);
+    const result = await mailosaur.messages.get(process.env.SERVERID,{
+        sentTo: `like-cast@${process.env.SERVERID}.mailosaur.net`
     });
 
     // Get the most recent message (the first one in the list)
