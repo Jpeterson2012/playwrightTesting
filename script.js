@@ -1,3 +1,5 @@
+//rm *.png
+//node --env-file .env script.js
 import { chromium } from 'playwright';
 
 let email = process.env.username;
@@ -67,7 +69,7 @@ const getStuff = async () => {
     const page = await context.newPage();
 
     try{
-        let orderNum = ['MEAL1202','SQ9224']
+        let orderNum = ['EB2311','LE1723','EB2400']
         await page.goto(`${process.env.LOGIN}`);       
         await page.locator('input#email').fill(email)
         await page.locator('input#password').fill(pw)
@@ -90,9 +92,20 @@ const getStuff = async () => {
 
             let rowHeaders = page.locator('table#orderDetail')
             let tableHeaders = await rowHeaders.locator('th').allInnerTexts()
-            let tableContent = await rowHeaders.locator('td').allInnerTexts()
-            await rowHeaders.screenshot({ path: `${orderNum[i]}table.png` })
+            //Filter Method
+            let tableRows = await rowHeaders.locator('tr').filter( {hasText: /(ipad|iphone|mcc|hotspot)/i} ).filter( {hasNotText: 'for'} ).allInnerTexts()
+            let temp2 = []
+            temp2.push(tableHeaders.slice(0, tableHeaders.length - 1))
+            tableRows.map(a => {
+                let tempRow = a.split('\t') 
+                temp2.push( tempRow.slice(0,tempRow.length - 1)) 
+            })
+            console.log(temp2)
 
+            let tableContent = await rowHeaders.locator('td').allInnerTexts()        
+            //Screenshot of just table    
+            await rowHeaders.screenshot({ path: `${orderNum[i]}table.png` })
+            //No Filter Method
             let temp = []
             temp.push(tableHeaders.slice(0, tableHeaders.length - 1))
             for (let i = 0; i < tableContent.length; i += 5){
@@ -104,26 +117,6 @@ const getStuff = async () => {
             console.log('\n')
 
             // let rowHeaders = await page.locator('table#orderDetail th').all()
-            // let newHeaders = []
-            // rowHeaders.map(async (a) =>  {
-            //     let temp = await a.innerText()
-            //     newHeaders.push(temp)
-            // })        
-            // const rows = await page.locator('table#orderDetail td').all();        
-            // let cellData = []
-            // cellData.push(newHeaders)
-            // let holder = []
-            // for (let i = 0; i < rows.length; i++){
-            //     let temp = await rows[i].innerText()
-            //     holder.push(temp)
-            //     if ((i + 1) % 5 === 0){
-            //         cellData.push(holder)
-            //         holder = []
-            //     }
-            // }
-            // console.log(newHeaders)
-            // console.log(cellData)
-
         }
     }
     catch (e){
