@@ -130,3 +130,9 @@ const getStuff = async () => {
 
 // firstTest()
 getStuff()
+
+// setInterval(()=>{
+//   let hour = new Date().getHours()
+//   if (hour >= 9 && hour <= 17)
+//     getStuff()
+// },1000*60*30)
