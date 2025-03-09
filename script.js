@@ -143,14 +143,22 @@ const getStuff2 = async(orderNum) => {
   const browser = await chromium.chromium.launch();
     const context = await browser.newContext({storageState: 'playwright/.auth.json'})
     const page = await context.newPage();
-    let data = []
+    let data = []    
 
     try{
         // let orderNum = ['EB2311','LE1723','EB2400']
-        await page.goto(`${process.env.LOGIN}`);       
-        await page.locator('input#email').fill(email)
-        await page.locator('input#password').fill(pw)
-        await page.getByRole('button', {name: /Login/}).click()  
+        await page.goto(`${process.env.LOGIN}`);               
+        console.log(page.url())        
+        if (page.url() === `${process.env.LOGIN}/login`){
+          console.log('Need to login first')
+          await page.locator('input#email').fill(email)
+          await page.locator('input#password').fill(pw)
+          await page.getByRole('button', {name: /Login/}).click()  
+          await page.screenshot({ path: `temp.png` });
+        
+          await context.storageState({ path: 'playwright/.auth.json' })
+        }
+        
 
         for (let i = 0; i < orderNum.length; i++){           
             
