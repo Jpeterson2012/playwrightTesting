@@ -8,3 +8,7 @@ node_modules/
 .env
 *.png
 playwright/.auth.json
+credentials.json
+token.json
+index.js
+

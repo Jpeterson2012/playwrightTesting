@@ -1,9 +1,7 @@
 {
   "name": "mplaywright",
-  "version": "1.0.0",
-  "type": "module",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.0",  
+  "description": "",  
   "scripts": {},
   "keywords": [],
   "author": "",
@@ -13,7 +11,9 @@
     "@types/node": "^22.13.9"
   },
   "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
     "dotenv": "^16.4.7",
+    "googleapis": "^105.0.0",
     "mailosaur": "^8.8.1",
     "playwright": "^1.51.0"
   }
