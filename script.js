@@ -151,30 +151,34 @@ const getStuff2 = async(orderNum) => {
         console.log(page.url())        
         if (page.url() === `${process.env.LOGIN}/login`){
           console.log('Need to login first')
+          await page.screenshot({ path: `temp.png` });
           await page.locator('input#email').fill(email)
           await page.locator('input#password').fill(pw)
-          await page.getByRole('button', {name: /Login/}).click()  
-          await page.screenshot({ path: `temp.png` });
+          await page.getByRole('button', {name: /Login/}).click()            
         
           await context.storageState({ path: 'playwright/.auth.json' })
         }
         
 
         for (let i = 0; i < orderNum.length; i++){           
-            
+            let gb = ''
+            await page.goto(`${process.env.EDIT}${orderNum[i]}`);            
+            await page.locator('table#totalGbAmount').waitFor()      
+            gb = await page.locator('div.total_gb_amount input').inputValue()            
+
             await page.goto(`${process.env.CHECKIN}${orderNum[i]}`);        
 
-            await page.waitForLoadState('load');                      
-            await page.locator('form#checkoutOrderFrm').waitFor()
+            // await page.waitForLoadState('load');                      
+            // await page.locator('form#checkoutOrderFrm').waitFor()
             await page.locator('table#orderDetail').waitFor()               
-            await page.waitForSelector('div.loading-spinner', { state: 'hidden' })
+            // await page.waitForSelector('div.loading-spinner', { state: 'hidden' })
             // await new Promise(resolve => setTimeout(resolve, 500));
             // await page.screenshot({ path: `images/${orderNum[i]}.png` });                      
 
             let rowHeaders = page.locator('table#orderDetail')            
             //Filter Method
             let tableRows = await rowHeaders.locator('tr').filter( {hasText: /(ipad|iphone|mcc|hotspot)/i} ).filter( {hasNotText: 'for'} ).allInnerTexts()                       
-            data.push([`=HYPERLINK("${process.env.CHECKIN}${orderNum[i]}","${orderNum[i]}")`,currentDate(),'',''])            
+            data.push([`=HYPERLINK("${process.env.CHECKIN}${orderNum[i]}","${orderNum[i]}")`,currentDate(),`=HYPERLINK("${process.env.EDIT}${orderNum[i]}","Total GB: ${gb}")`,''])            
             tableRows.map(a => {
                 let tempRow = a.split('\t')                 
                 data.push( tempRow.slice(0,tempRow.length - 1)) 
@@ -185,9 +189,9 @@ const getStuff2 = async(orderNum) => {
             console.log(orderNum[i])
         }
     }
-    catch (e){
-        await page.screenshot({ path: 'images/error.png' })
-        console.error(`Error message: ${e}`)
+    catch{
+        // await page.screenshot({ path: 'images/error.png' })
+        // console.error(`Error message: ${e}`)
     }
     await context.close();
     await browser.close();
