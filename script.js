@@ -158,6 +158,14 @@ const getStuff2 = async(orderNum) => {
         
           await context.storageState({ path: 'playwright/.auth.json' })
         }
+        //download ims csv
+        // const [ download ] = await Promise.all([
+        //   page.waitForEvent('download'),
+        //   page.goto(`${process.env.LOGIN}/items/list`),          
+        //   page.getByTitle('Export All Items').click()
+        // ]);
+        // await download.saveAs('ims.csv');       
+        
         
 
         for (let i = 0; i < orderNum.length; i++){           
