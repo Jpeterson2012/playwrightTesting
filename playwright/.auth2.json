@@ -1,0 +1,856 @@
+{
+  "cookies": [
+    {
+      "name": "lidid",
+      "value": "5106f7a6-3f88-4c7e-8f96-995466e5095b",
+      "domain": ".liadm.com",
+      "path": "/j",
+      "expires": 1776605613.137639,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_li_ss",
+      "value": "ChoKBgiiARCmGgoFCAoQphoKCQj_____BxCwGhIfDcQpXcQSGAoGCPQBEKQaCgYIkwEQpBoKBgjFARCmGhIPDfaOapYSCAoGCJMBEKQaEg8NBd3p7RIICgYIkwEQpBo",
+      "domain": "i.liadm.com",
+      "path": "/s",
+      "expires": 1744637613.641842,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "utm",
+      "value": "%7B%7D",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1743255219.232667,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "x",
+      "value": "704a3ee9678779fb42a35bed546024c7.1742045605",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1742046519.233037,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=OGST02:s=O:r=O:a=O:p=O:g=3508:u=1:x=1:i=1742045608:t=1742132008:v=2:sig=AQEMwUN831omoUu36pKHy4yrPgPmAzfw\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1742132009.652278,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "li_sugr",
+      "value": "46444b07-bccd-4408-9abd-7cedd635cf8a",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1749821612.881272,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "UserMatchHistory",
+      "value": "AQKsJ5rFyoL0egAAAZWaAnmQQcp_wD3x_azJS0chZof00ZyI1TUnnOnFwIgFPpz5TKuHU7H2FYDKtw",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1744637608.74997,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AnalyticsSyncHistory",
+      "value": "AQLjBoEx3Xv53AAAAZWaAnmQrOLwqKYmKRPOsN-Vqyi_gYU2Md7olBrUf1v5gN8A6YBXKQiAVL3mAwgqeGtCqw",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1744637608.750072,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&4f234f81-5a98-4aab-8ed7-e27188f19a96\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1773581613.881332,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Sat+Mar+15+2025+09%3A33%3A32+GMT-0400+(Eastern+Daylight+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=6576fcba-7a6f-4a15-a570-3662920b75ab&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A1%2C2%3A1%2C4%3A1&AwaitingReconsent=false",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1773581612,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "PageCount",
+      "value": "2",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "zBSX3uh52acjQgjwPlKl9gNFTUg9BXYNVhsveIvPKaA-1742045612-1.0.1.1-Gx2mkYX4UbkHyExl2Boc0NrNCVLfEbClj2._Od9cs42acMoySzhr0bR5evikr1OcmDCWCTX_gPc8q.XTBos4dooYOSAU1XLrsHU74lPBOwA",
+      "domain": ".techtarget.com",
+      "path": "/",
+      "expires": 1742047412.657878,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tuuid",
+      "value": "83d0ef48-2b4f-4761-abde-c12c3af0325d",
+      "domain": ".company-target.com",
+      "path": "/",
+      "expires": 1776605612.815717,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tuuid_lu",
+      "value": "1742045612|ix:0|mctv:0|rp:0",
+      "domain": ".company-target.com",
+      "path": "/",
+      "expires": 1776605612.815792,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_li_dcdm_c",
+      "value": ".slack.com",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_lc2_fpi",
+      "value": "e00b11ac9c9b--01jpd052sw78brazxqvas4g3k8",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1776605612.861304,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_lc2_fpi_js",
+      "value": "e00b11ac9c9b--01jpd052sw78brazxqvas4g3k8",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__pdst",
+      "value": "85cf410ac5de46329f01a1f5d21bd61d",
+      "domain": "slack.com",
+      "path": "/",
+      "expires": 1773581612,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "cjConsent",
+      "value": "MHxOfDB8Tnww",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1776173613,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cjUser",
+      "value": "b9a5e94a-4ae0-4f35-b8d5-4a9408a48dcf",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1776173613,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tvid",
+      "value": "7fc611c83cf04bd0851c14a8009c33aa",
+      "domain": ".tremorhub.com",
+      "path": "/",
+      "expires": 1773602513.01576,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tv_UIDM",
+      "value": "83d0ef48-2b4f-4761-abde-c12c3af0325d",
+      "domain": ".tremorhub.com",
+      "path": "/",
+      "expires": 1776605613.015854,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CMID",
+      "value": "Z9WBrNHM55sAHyLZAYE7DQAA",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1773581613.044324,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CMPS",
+      "value": "5674",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1749821613.017622,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CMPRO",
+      "value": "5674",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1749821613.044433,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lidid",
+      "value": "5106f7a6-3f88-4c7e-8f96-995466e5095b",
+      "domain": ".liadm.com",
+      "path": "/",
+      "expires": 1776605613.641922,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cs_c",
+      "value": "0",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1776209613,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cs_id",
+      "value": "936d5f56-316e-aa20-b4ac-6086102a5bbb.1742045613.1.1742045613.1742045613.1.1776209613145.1.x",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1776209613,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cs_id___5540",
+      "value": "936d5f56-316e-aa20-b4ac-6086102a5bbb.1742045613.1.1742045613.1742045613.1.1776209613145.1.x",
+      "domain": ".csxd.contentsquare.net",
+      "path": "/",
+      "expires": 1776209613,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cs_s",
+      "value": "1.0.0.9.1742047413158",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1742047413,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cs_s___5540",
+      "value": "1.0.0.9.1742047413158",
+      "domain": ".csxd.contentsquare.net",
+      "path": "/",
+      "expires": 1742047413,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_li_ss",
+      "value": "Cg8KBgiiARCmGgoFCAoQphoSHw3EKV3EEhgKBgj0ARCkGgoGCJMBEKQaCgYIxQEQphoSDw32jmqWEggKBgiTARCkGhIPDQXd6e0SCAoGCJMBEKQa",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1776605613.343901,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "audit_p",
+      "value": "1|KfZCcVOaCPfwE0NfmSXlU/a6mB/je/qQ0ML9sg1483w57Dcut3WOcoImwrwI7/cvnzb5pIyo078wHTRO1/p4iJLoYn4tEwhGlAF2XUh46EWqa0O6IMHkPaej1LkgDpP7EJRUSUoLKwgCHnZggHAVzEGeJX+z8cSiVFGxpdJGiDeWvEnWSmTsitzpQ7vzkXQ/",
+      "domain": ".rubiconproject.com",
+      "path": "/",
+      "expires": 1773581613.369244,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "khaos",
+      "value": "M8A8Z9OH-18-HZ6G",
+      "domain": ".rubiconproject.com",
+      "path": "/",
+      "expires": 1773581613.369372,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "khaos_p",
+      "value": "M8A8Z9OH-18-HZ6G",
+      "domain": ".rubiconproject.com",
+      "path": "/",
+      "expires": 1773581613.369402,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "audit",
+      "value": "1|KfZCcVOaCPfwE0NfmSXlU/a6mB/je/qQ0ML9sg1483w57Dcut3WOcoImwrwI7/cvnzb5pIyo078wHTRO1/p4iJLoYn4tEwhGlAF2XUh46EWqa0O6IMHkPaej1LkgDpP7EJRUSUoLKwgCHnZggHAVzEGeJX+z8cSiVFGxpdJGiDeWvEnWSmTsitzpQ7vzkXQ/",
+      "domain": ".rubiconproject.com",
+      "path": "/",
+      "expires": 1773581613.369438,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "receive-cookie-deprecation",
+      "value": "1",
+      "domain": ".rubiconproject.com",
+      "path": "/",
+      "expires": 1749821613.369459,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TDID",
+      "value": "d8e81d0c-d27a-4aef-9eee-ffceef458387",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1773581613.454137,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TDCPM",
+      "value": "CAESGQoKbGl2ZWludGVudBILCPKU9reA9PE9EAUYBSABKAIyCwich-fklvTxPRAFOAE.",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1773581613.454356,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ljt_reader",
+      "value": "2aa0507dab16da75871087f8",
+      "domain": ".lijit.com",
+      "path": "/",
+      "expires": 1773581613.535145,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did",
+      "value": "_04k0eigqlI7pkBX",
+      "domain": ".pippio.com",
+      "path": "/",
+      "expires": 1773581613.461116,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "didts",
+      "value": "1742045613",
+      "domain": ".pippio.com",
+      "path": "/",
+      "expires": 1773581613.461205,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "nnls",
+      "value": "",
+      "domain": ".pippio.com",
+      "path": "/",
+      "expires": 1747229613.461232,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "zync-uuid",
+      "value": "767cbd0b-5af8-4fa3-88c4-ffa43e8b8f9f:1742045613.0572352",
+      "domain": ".rezync.com",
+      "path": "/",
+      "expires": 1775716413.626005,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "rlas3",
+      "value": "Ok93meX1KiVbqnXz6P8zVjlHAVejrqArqN1aCPn83B7QSalRpZL3NjN7qEY+0UatVztxQRoV/Lv8a3Stvw/i4X5hzv8/tj4jBusappoLnpWPAUdHXpF+mZTkwdsB6nkhf0Z4Q2JfG9NSOoXBnfFMzIpeZfITqZ/BH7WII2RHhHaMyA9jEACu5w==",
+      "domain": ".rlcdn.com",
+      "path": "/",
+      "expires": 1773581613.510155,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "pxrc",
+      "value": "CKyD1r4GEgUI6AcQABIFCOhHEAESBgjK3SoQAA==",
+      "domain": ".rlcdn.com",
+      "path": "/",
+      "expires": 1747229613.510293,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "3pids",
+      "value": "\"8100:b22605b8141562508a445f8d40452ef9,,5e91fb94ccde6e8460c902d1f02dc84cbd2bde41,,8c955ae87c1ae546fc6c759e1143bcdf26b16a00190a6083859ff019b5a7be8f,,\"",
+      "domain": ".lijit.com",
+      "path": "/",
+      "expires": 1773581613.535275,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "A3",
+      "value": "d=AQABBK2B1WcCEPoR_6j3jdlV_e8OwjHqewQFEgEBAQHT1mffZ9xF0iMA_eMAAA&S=AQAAAtiD-T5m99u3vvZbpsdNeEo",
+      "domain": ".yahoo.com",
+      "path": "/",
+      "expires": 1773603213.566165,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "rud",
+      "value": "H4sIAAAAAAAA_-MSsjSzMDAzsjC1NLAwNTQwMzMzEOIz1A3I904sN4kyy7XIzQIA7vFriyQAAAA",
+      "domain": ".rfihub.com",
+      "path": "/",
+      "expires": 1775741613.555051,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "euds",
+      "value": "H4sIAAAAAAAA_wXByRWAMAgFwIvt4CMsAe0Gor-QVJ6ZfUXMWP1xkxeSDKWUuYyAMv2zEw_eESZsPofe7CHqcgAGGj2bOgAAAA",
+      "domain": ".rfihub.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "eud",
+      "value": "H4sIAAAAAAAA_13IsRGAMAgAwAmsMgceBAjoNhBlIEtLJ7X0zvL_ambDZh6YoFEOUsHgPgWqQvj09NpqJ5OOooN4RbXO2u-2fEnmz88v5kgVUloAAAA",
+      "domain": ".rfihub.com",
+      "path": "/",
+      "expires": 1775741613.555164,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ruds",
+      "value": "H4sIAAAAAAAA_-MSsjSzMDAzsjC1NLAwNTQwMzMzEOIz1A3I904sN4kyy7XIzQIA7vFriyQAAAA",
+      "domain": ".rfihub.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "IDSYNC",
+      "value": "19ab~2o2d",
+      "domain": ".analytics.yahoo.com",
+      "path": "/",
+      "expires": 1773581613.566108,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ab",
+      "value": "0001%3Adv6m%2FeN5pefyGMjYpwcbkHjBjQDldece",
+      "domain": ".agkn.com",
+      "path": "/",
+      "expires": 1773581613.615082,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "pxrc",
+      "value": "CK2D1r4GEgUIuRwQABIGCJGtKxAA",
+      "domain": ".pippio.com",
+      "path": "/",
+      "expires": 1747229613.684436,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sd-session-id",
+      "value": ".eJwNyksOgyAQANC7zFqa4TcMXMYgMglppY3YTY13r8uXvBPmT9233Gs_IB37t05QXu3WgHTCaL-tPiFBJEYy7COy10hECNcEo47R3n1u610ChbKsuCifhZWTbBVzcUokO1t5YYmSdHAGnSdtH-iDsd7A9QexFiY5.Z9WBrQ.zOngiRO3CUWRNZ2Ys5Btjg_uDmc",
+      "domain": "live.rezync.com",
+      "path": "/",
+      "expires": 1775741613.626088,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ANON_ID",
+      "value": "a6noeUMZaACnpqGpU8IDLikjbZakYG6YnGJnkLMXZd7",
+      "domain": ".tribalfusion.com",
+      "path": "/",
+      "expires": 1749821613.708945,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "DotomiUser",
+      "value": "507008009962285876$0$434778836$$1$$1742045613306$1742045613306",
+      "domain": ".dotomi.com",
+      "path": "/",
+      "expires": 1776000813.75085,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "receive-cookie-deprecation",
+      "value": "1",
+      "domain": ".dotomi.com",
+      "path": "/",
+      "expires": 1776000813.751028,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "XANDR_PANID",
+      "value": "uOc8BHcSTrW2WrnVFbgTT0IkzIcr4a5N5bqDFDWUV2DncQsqf933rK7wGXjyPDKD8Hudm-33gSa1pvv9VfFuP3CWHszrdo10Ta1lWYQ1kPA.",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1749821613.874704,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "receive-cookie-deprecation",
+      "value": "1",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1749821613.874853,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "uuid2",
+      "value": "3782768157746879844",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1749821613.874906,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "mc",
+      "value": "eyJpZCI6ImZhM2MxMjc2LWU3ODAtNDY3ZS1iMmZjLTdlMDA5NjJkNTE4OSIsImwiOjE3NDIwNDU2MTM1MTcsInQiOjV9",
+      "domain": ".thrtle.com",
+      "path": "/",
+      "expires": 1759325613.891507,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sc",
+      "value": "eyJpIjoiN2ZkODlkOTktODRjNS00YWE1LTljODEtNjdjYjAwMzVjOGM0Iiwic2lkIjoic2lkLTE3NDQ2ZWQ4LTAxYTItMTFmMC04ZTRkLTAyNDIwYWZmMTM4MiIsIm1zIjozLCJwcyI6Mywic3AiOjUwMDYsInBwIjozLCJ0c2UiOjMsImx0c2UiOjE3NDIwNDU2MTM0NDV9",
+      "domain": ".thrtle.com",
+      "path": "/",
+      "expires": 1759325613.891669,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.539464971.1742045614",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1776605614.23982,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "receive-cookie-deprecation",
+      "value": "1",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1757597614.304744,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ar_debug",
+      "value": "1",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1744637614.334352,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUmu_Zc9lB1htHQgAlD8YOpD0uzY0LZR_lvrQhOOdkKhSnXvsKXnfzRSsV1nEdw",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1776605614.304641,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "visitor_id755253",
+      "value": "1863965440",
+      "domain": ".pardot.com",
+      "path": "/",
+      "expires": 1776605614.538663,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "visitor_id755253-hash",
+      "value": "c49e8420157a5ea336831d8afc248ad42a729ac29cabc0cdbbd29dc8329b06da94322b33878e83a2e35b9d79f065359cef0a4276",
+      "domain": ".pardot.com",
+      "path": "/",
+      "expires": 1776605614.538762,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lpv755253",
+      "value": "aHR0cHM6Ly9zbGFjay5jb20vc2lnbmluIy9jb25maXJtZW1haWw%2FcmVkaXI9JTJGZ2FudHJ5JTJGYXV0aCUzRmFwcCUzRGNsaWVudCUyNmxjJTNEMTc0MjA0NTYwNiUyNnJldHVybl90byUzRCUyNTJGY2xpZW50JTI1MkZUNlEzUk1ZU1klMjUyRkMwN0cwMlZLWEg4JTI2dGVhbXMlM0QmZG9tYWluPWhlbGxvLWZlbGxvJmRvbWFpbkxvZ2luPTEmZW1haWw9amVzc2UlNDBmZWxsby5jb20%3D",
+      "domain": "pi.pardot.com",
+      "path": "/",
+      "expires": 1742047414.538806,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "visitor_id755253",
+      "value": "1863965440",
+      "domain": "slack.com",
+      "path": "/",
+      "expires": 1776605614.541209,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "visitor_id755253-hash",
+      "value": "c49e8420157a5ea336831d8afc248ad42a729ac29cabc0cdbbd29dc8329b06da94322b33878e83a2e35b9d79f065359cef0a4276",
+      "domain": "slack.com",
+      "path": "/",
+      "expires": 1776605614.541579,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "visitor_id755253",
+      "value": "1863965440",
+      "domain": "campaign.slackhq.com",
+      "path": "/",
+      "expires": 1776605614.691081,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "visitor_id755253-hash",
+      "value": "c49e8420157a5ea336831d8afc248ad42a729ac29cabc0cdbbd29dc8329b06da94322b33878e83a2e35b9d79f065359cef0a4276",
+      "domain": "campaign.slackhq.com",
+      "path": "/",
+      "expires": 1776605614.691275,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.2019078605.1742045613.1836707448.1742045616.1742045616",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1749821613,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ec",
+      "value": "enQtODYwOTU5ODE4MTM2My0wYjY4NWE4Y2VkNTU2MDQ2YmI1YjRlZmUxMTIxNTE1ZjZhZmFlYzBiYzA3Yjg2ZDk1YTc2ZjA5ZWZhMmY5ZDQx",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1742132016.511987,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "d",
+      "value": "xoxd-ihJebT25UGJQdbLfAMIa0JL162282CHkHZIL1udtk8h0CxqmnS%2ByIpIrOvbkSXQZuQc37e4OnJRtW9C3Z41PQBScI6P8WZscKZCkBW%2FW3t%2FOauVpYxCg8S6lQRIlfe5ywsfxZPEOeMWcE%2B%2BmFMnuXwhbR%2FuXA%2FlmQZLgJGemI2AueKa8aO0dEQ%3D%3D",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1776605616.794755,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "lc",
+      "value": "1742045616",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1744637616.794792,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "d-s",
+      "value": "1742045616",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "b",
+      "value": ".704a3ee9678779fb42a35bed546024c7",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1776605616.8317,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_QTJQME5M5D",
+      "value": "GS1.1.1742045612.1.0.1742045616.56.0.0",
+      "domain": ".slack.com",
+      "path": "/",
+      "expires": 1776605616.972758,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.slack.com",
+      "localStorage": [
+        {
+          "name": "li_adsId",
+          "value": "7f67b1dd-a7bd-42c8-9772-9cd840911950"
+        },
+        {
+          "name": "localConfig_v2",
+          "value": "{\"teams\":{\"T6Q3RMYSY\":{\"id\":\"T6Q3RMYSY\",\"name\":\"Fello\",\"url\":\"https://hello-fello.slack.com/\",\"domain\":\"hello-fello\",\"token\":\"xoxc-228127746916-6791343320145-8629669476864-c5f23828763782b999abffa4ba1a35aa9ed03498ede9c64acb218b8eda694e47\",\"user_locale\":\"en-US\",\"user_id\":\"U06P9A39E49\",\"is_unified_user_client_enabled\":true,\"icon\":{\"image_68\":\"https://avatars.slack-edge.com/2024-11-13/8027139235140_00b507ef68ef501fd8ec_68.png\",\"image_88\":\"https://avatars.slack-edge.com/2024-11-13/8027139235140_00b507ef68ef501fd8ec_88.png\",\"image_default\":false}}},\"prevTeams\":{},\"orderedTeamIds\":[],\"pendingAuthTeams\":{},\"lc\":\"1742045616\",\"lastFetched\":\"1742045618\",\"lastActiveTeamId\":\"T6Q3RMYSY\"}"
+        }
+      ]
+    },
+    {
+      "origin": "https://slack.com",
+      "localStorage": [
+        {
+          "name": "_li_ss",
+          "value": "Cg8KBgiiARCmGgoFCAoQphoSHw3EKV3EEhgKBgj0ARCkGgoGCJMBEKQaCgYIxQEQphoSDw32jmqWEggKBgiTARCkGhIPDQXd6e0SCAoGCJMBEKQa"
+        },
+        {
+          "name": "li_adsId",
+          "value": "28e2db6c-8234-4240-a63a-bb541d843bf5"
+        },
+        {
+          "name": "_li_duid",
+          "value": "e00b11ac9c9b--01jpd052sw78brazxqvas4g3k8"
+        }
+      ]
+    }
+  ]
+}
