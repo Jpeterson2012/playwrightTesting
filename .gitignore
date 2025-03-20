@@ -2,14 +2,18 @@
 # Playwright
 node_modules/
 /test-results/
+/tests/
+/tests-examples/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
 .env
 *.png
-playwright/.auth.json
+playwright/
+/playwright2/
 credentials.json
 token.json
 index.js
 ims.csv
+images/
 
